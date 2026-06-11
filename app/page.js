@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import LiveCounter from './components/LiveCounter'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <div className="hero-badge">📍 Leander, Texas</div>
+          <LiveCounter />
           <h1>
             Learn <span className="gradient-text">CAD & Coding</span><br />
             from real engineers
