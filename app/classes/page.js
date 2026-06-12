@@ -10,7 +10,6 @@ export default function Classes() {
       <div className="aurora" aria-hidden>
         <div className="aurora-orb orb1" />
         <div className="aurora-orb orb3" />
-        <div/>
       </div>
 
       <section className="page-hero">
